@@ -1,7 +1,7 @@
-﻿# realeza-dos-cakes
+﻿# realeza-dos-cakes#
  
  
  
- <img src="https://uploaddeimagens.com.br/imagens/s1Oeads" alt="">
+ <img align="center" src="https://uploaddeimagens.com.br/imagens/s1Oeads" alt="">
 
 
