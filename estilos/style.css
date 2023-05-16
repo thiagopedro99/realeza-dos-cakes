@@ -1,0 +1,308 @@
+/* RESET CSS  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0px;
+    padding: 0xp;
+    border: 0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+
+
+/* ============================Menu de Navegação =====================================*/
+
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+
+
+
+}
+
+
+.logo img {
+    padding-left: 30px;
+    width: 200px;
+    height: 80px;
+
+}
+
+.logo {
+    display: flex;
+    justify-self: left;
+    flex-grow: 0.8;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+.menu ul a {
+    text-decoration: none;
+    font-family: 'jaldi';
+    font-size: 20px;
+    color: #935544;
+    transition: all 0.2s ease-in;
+
+
+
+}
+
+
+.menu ul a:hover {
+    color: white;
+
+    font-size: 25px;
+    text-shadow: 1px 1px rgb(255, 218, 218);
+
+}
+
+
+/* ===========================Index Section=============================*/
+
+
+section {
+    display: flex;
+    width: auto;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container {
+
+    display: flex;
+}
+
+.banner {
+
+    display: flex;
+    width: 358px;
+    height: 350px;
+    margin: auto 140px;
+    flex-flow: column nowrap;
+    color: white;
+    text-align: justify;
+    margin-bottom: 300px;
+    margin-left: auto;
+    
+
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 90px;
+    padding-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'K2D';
+    font-style: normal;
+    color: #945745;
+    
+
+}
+
+
+
+.banner>p {
+    display: flex;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    color: #51281A;
+    font-size: 25px;
+    font-weight: bold;
+    text-justify: justify;
+    letter-spacing: -0.01em;
+}
+
+.banner a {
+    display: flex;
+    padding: 20px;
+    background-color: #EAAE9A;
+    margin-top: 50px;
+    border-radius: 30px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    flex-flow: column nowrap;
+    font-size: 17px;
+    transition: all 0.2s ease-in;
+
+}
+
+.banner a:hover {
+
+    background-color: #945745;
+    font-size: 17.5px;
+
+}
+
+
+
+/* ======================      CSS  PRODUTOS        ===================================*/
+
+.container {
+    display: flex;
+    flex-flow:  row wrap;
+    width: 950px;
+    padding-top: 100px;
+    align-items: center;
+    height: inherit;
+    justify-content: center;
+    flex-direction: space-between;
+    
+}
+
+
+
+
+.container h2 {
+    
+    font-size: 25px;
+    display: flex; 
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+    font-family: 'jaldi';
+    color: #935544; 
+    font-weight: bold;
+}
+
+
+
+.produtos {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+    height: inherit;
+   
+}
+
+
+.item {
+    display: flex;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item img{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.item h4{
+    
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-family: 'jaldi';
+    font-style: italic;
+
+    font-weight: bold;
+    color: #51281A;
+    text-transform: uppercase;
+}
+
+.item p {
+    padding-top: 25px;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'jaldi';
+    font-weight: 200;
+}
+
+.item a{
+    display: block;
+    text-decoration: none;
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'jaldi';
+    font-weight: 100;
+}
+
+.item a:after {
+    content: '';
+
+    width: 39px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+    border-width: 0 0 0.5px;
+    border-style: solid;
+    transition: all 0.3s ease-in;
+}
+
+
+.item a:hover:after {
+    color: yellow;
+   
+}
